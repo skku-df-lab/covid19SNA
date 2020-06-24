@@ -9,11 +9,13 @@ print(df)
 
 cluster_data = df[['latitudeE7', 'longitudeE7']]
 
-kmeans = KMeans(n_clusters = k).fit(cluster_data)
-centroids = kmeans.cluster_centers_
+k_means = KMeans(n_clusters = k)
+k_means.fit(cluster_data)
+
+centroids = k_means.cluster_centers_
 print(centroids)
 
-df['cluster_id'] = kmeans.labels_
+df['cluster_id'] = k_means.labels_
 
 print(df)
 
@@ -24,5 +26,5 @@ plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=10)
 plt.title('Clustering of the Suspected - 9:00 am')
 plt.xlabel('latitude')
 plt.ylabel('longitude')
-# plt.colorbar()
+
 plt.show()
