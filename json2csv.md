@@ -6,7 +6,7 @@
 #### 필요한 함수 추가
 <pre><code>
 import json
-import csv
+import csv  
 </code></pre>
 
 #### JSON파일(LocationHistory.json)을 가져오는 작업
@@ -30,9 +30,9 @@ for emp in employee_data:
     header = emp.keys()
     csv_writer.writerow(header)
     count += 1
+    
   csv_writer.writerow(emp.values())
 
-data_file.close()
-</code>
-</pre>
+data_file.close()  
+</code></pre>
 
