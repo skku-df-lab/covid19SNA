@@ -1,15 +1,13 @@
 
-### 구글 takeout에서 위치정보인 LocationHistory.json 파일을 다운받는 것으로부터 시작
+### @구글 takeout에서 위치정보인 LocationHistory.json 파일을 다운받는 것으로부터 시작
 
 ## json2csv.py 
 
 #### 필요한 함수 추가
-<pre>
-<code>
+<pre><code>
 import json
 import csv
-</code>
-</pre>
+</code></pre>
 
 #### JSON파일(LocationHistory.json)을 가져오는 작업
 <pre>
