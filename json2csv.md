@@ -1,6 +1,3 @@
-
-## 구글 takeout에서 위치정보파일(LocationHistory.json)을 다운
-
 ## json2csv.py 
 
 #### 필요한 함수 추가
