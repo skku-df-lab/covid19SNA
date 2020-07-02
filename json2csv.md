@@ -10,13 +10,11 @@ import csv
 </code></pre>
 
 #### JSON파일(LocationHistory.json)을 가져오는 작업
-<pre>
-<code>
+<pre><code>
 with open('LocationHistory.json') as json_file:
     data = json.load(json_file)
 employee_data = data['locations']  
-</pre>
-</code>
+</code></pre>
 
 #### CSV파일(LocationHistory.csv)을 생성하는 작업
 <pre>
@@ -35,4 +33,3 @@ data_file.close()
 </code>
 </pre>
 
-### 
