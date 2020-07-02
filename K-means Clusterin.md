@@ -5,7 +5,7 @@
 
 <pre>
 <code>
-sheetName = '0900'
+sheetName = '1230'
 df = pd.read_excel('100PP_GPS_Data.xlsx', sheet_name=sheetName)
 k = 20
 
@@ -25,7 +25,7 @@ df.to_excel(sheetName+'.xlsx', index=False)
 
 plt.scatter(df['latitudeE7'], df['longitudeE7'], c=kmeans.labels_.astype(float), s=1000, alpha=0.3, cmap='jet')
 plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=10)
-plt.title('Clustering of the Suspected - 13:00')
+plt.title('Clustering of the Suspected - 12:30')
 plt.xlabel('latitude')
 plt.ylabel('longitude')
 
