@@ -13,7 +13,7 @@
 >    >    > header = emp.keys()
 >    >    > csv_writer.writerow(header)
 >    >    > count += 1
->    > csv_writer.writerow(emp.values())   
+>    > csv_writer.writerow(emp.values()) 
 > data_file.close()
 
 
