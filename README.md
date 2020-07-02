@@ -18,4 +18,16 @@
 > 
 > data_file.close()  
 
-####
+#### CSV파일(LocationHistory.csv)을 생성하는 작업
+
+csv_writer = csv.writer(data_file)
+count = 0
+for emp in employee_data:
+  if count == 0:      
+    header = emp.keys()  
+    csv_writer.writerow(header)  
+    count += 1
+    
+  csv_writer.writerow(emp.values())  
+
+data_file.close()  
