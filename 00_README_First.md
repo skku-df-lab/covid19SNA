@@ -4,13 +4,15 @@
 
 1. json2csv : convert .json file to .csv file
 
-2. K-Means Clustering -> Hierarchical Clustering
+2. K-Means Clustering 
+-> 2. Hierarchical Clustering
 
 3. Weight : Weight Matrix
-  3-1. Inverse Distance Weighted : IDW
 
-4. Shortest Path : Dijistra algorithm
+4. Weight : IDW(Inverse Distance Weighting)
 
-5. Graph : Weighted graph
+5. Shortest Path : Dijistra algorithm
 
-6. Centrality : Centrality
+6. Graph : Weighted graph
+
+7. Centrality : Centrality
