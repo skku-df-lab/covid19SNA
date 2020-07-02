@@ -1,5 +1,15 @@
 ## K-MeansClustering.py 
 
+#### 필요한 함수 모듈 추가
+<pre>
+<code>
+import pandas as pd
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt  
+
+</pre>
+</code>
+
 #### k-means clustering 함수를 이용하여 
 #### K의 갯수를 지정한 후, 각 시간 간격별 데이터를 지정한 k값으로 그룹화하는 작업
 
