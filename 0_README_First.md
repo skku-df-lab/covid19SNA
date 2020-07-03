@@ -10,7 +10,7 @@
 
 3. Weight : Weight Matrix
 
-4. Weight : IDW(Inverse Distance Weighting)
+4. Weight : IDW (Inverse Distance Weighting)
 
 5. Shortest Path : Dijistra algorithm
 
