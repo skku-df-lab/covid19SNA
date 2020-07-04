@@ -1,6 +1,6 @@
 ## Weight : WeightMatrix_input.py
 
-#### 모든 노드들에 대한 각각의 가중치를 정방행렬(모든 노드 수(degree)X 모든 노드 수(degree))로 표현하는 작업 
+#### 모든 노드들에 대한 각각의 가중치를 구하는 작업
 <pre>
 <code>
 filename = ['W0900', 'W0930', 'W1000', 'W1030', 'W1100', 'W1130', 'W1200', 'W1230', 'W1300']
@@ -29,7 +29,7 @@ print(TotalWeight)
 </code>
 </pre>
 
-#### 추가추가설명
+#### 가중치를 정방행렬(모든 노드 수(degree)X 모든 노드 수(degree))로 표현하는 작업 
 <pre>
 <code>
 sheetName = 'total'
