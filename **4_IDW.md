@@ -8,7 +8,7 @@ import numpy as np
 </code>
 </pre>
 
-#### 두 노드 사이의 가중치들 중 최대값을 찾는 작업
+#### 전체 가중치들 중 최대 가중치값을 찾는 작업
 <pre>
 <code>
 df = pd.read_excel('weight.xlsx')
@@ -28,7 +28,7 @@ print("maximum :", maximum)
 </code>
 </pre>
 
-####
+#### 역가중치 값을 구하는 작업
 <pre>
 <code>
 maximumPlus = maximum +1
