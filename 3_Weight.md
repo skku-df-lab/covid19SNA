@@ -28,3 +28,50 @@ for f in range(0, len(filename)):
 print(TotalWeight)
 </code>
 </pre>
+
+#### 추가추가설명
+<pre>
+<code>
+sheetName = 'total'
+df = pd.read_excel('../k-MeansClustering/100PP_GPS_Data_clustering_result.xlsx', sheet_name=sheetName)
+
+print(df)
+
+W = np.identity(degree)
+snapshot = []
+snapshot2 = []
+for x in range(degree):
+    snapshot2.append(99999)
+
+input = df.iloc[1, 1]
+print(input)
+
+for i in range(1, timestep): # input 과 동일한 클러스터를 추출
+    if i == 1:
+        for j in range(0, degree):  # input 외 데이터는 0으로 설정
+            if input == df.iloc[j, i]:
+                snapshot.append(df.iloc[j, i])
+            else:
+                snapshot.append(99999)
+        snapshot2 = snapshot
+        print('snapshot', i, ':', snapshot)
+    else:
+        for k in range(0, degree):
+            if snapshot[k] != 99999:
+                for l in range(0, degree):
+                    if df.iloc[k, i] == df.iloc[l, i]:
+                        snapshot2[l] = df.iloc[k, i]
+
+    for k in range(0, degree):
+        if snapshot2[k] != 99999:
+            for l in range(0, degree):
+                if k != l:
+                    if snapshot2[k] == df.iloc[l, i]:
+                        W[l, k] = TotalWeight[l, k]
+
+print(W)
+
+output = pd.DataFrame(W)
+output.to_excel('weight.xlsx', index=False)
+</pre>
+</code>
