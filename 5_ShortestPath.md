@@ -60,7 +60,7 @@ class Graph:
 </code>
 </pre>
 
-#### 다익스트라 알고리즘으로 최단 경로 그래프를 만드는 작업
+#### 다익스트라 알고리즘으로 최단 경로를 구하는 작업
 <pre>
 <code>
 def dijkstra(graph, s):
