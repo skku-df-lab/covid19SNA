@@ -1,5 +1,14 @@
 ## Weight : WeightMatrix_input.py
 
+#### 필요한 모듈 추가
+<pre>
+<code>
+import pandas as pd
+import numpy as np
+from scipy.spatial import distance
+</code>
+</pre>
+
 #### 모든 노드들에 대한 각각의 가중치를 구하는 작업
 <pre>
 <code>
