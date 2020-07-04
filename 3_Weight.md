@@ -29,7 +29,7 @@ print(TotalWeight)
 </code>
 </pre>
 
-#### 가중치를 정방행렬(모든 노드 수(degree)X 모든 노드 수(degree))로 표현하는 작업 
+#### 가중치를 행렬로 표현하는 작업 
 <pre>
 <code>
 sheetName = 'total'
@@ -74,4 +74,4 @@ print(W)
 output = pd.DataFrame(W)
 output.to_excel('weight.xlsx', index=False)
 </pre>
-</code>  
+</code>
