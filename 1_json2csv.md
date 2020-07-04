@@ -1,6 +1,6 @@
 ## json2csv.py 
 
-#### 필요한 함수 추가
+#### 필요한 모듈 추가
 <pre><code>
 import json
 import csv  
