@@ -12,7 +12,7 @@ import pandas as pd
 </code>
 </pre>
 
-#### 우선순위 큐를 구하는 작업
+#### 우선순위 큐를 생성하는 작업
 <pre>
 <code>
 # utility: priority queue
@@ -40,7 +40,7 @@ class Pq:
 </code>
 </pre>
 
-#### 그래프 구하는 작업
+#### 그래프를 생성하는 작업
 <pre>
 <code>
 # utility: Graph
