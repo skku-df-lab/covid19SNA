@@ -130,7 +130,12 @@ for i in range(0, degree):
 
 print(g)
 #print(shortest_path('1', '99'))
+</code>
+</pre>
 
+#### 구한 최단 경로를 출력하는 작업
+<pre>
+<code>
 result = []
 for i in range(0, degree):
     for j in range(0, degree):
