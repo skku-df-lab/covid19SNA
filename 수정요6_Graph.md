@@ -58,3 +58,24 @@ plt.axis('off')
 plt.show()
 </code>
 </pre>
+
+### 시간별 그래프 생성 결과 예시
+issue에 그림들 올린 후, 링크들 가져오기
+###### Initial Graph, 13:00
+사진1
+###### Extended Graph, 12:30
+사진2
+###### Extended Graph, 12:00
+사진3
+###### Extended Graph, 11:30
+사진4
+###### Extended Graph, 11:00
+사진5
+###### Extended Graph, 10:30
+사진6
+###### Extended Graph, 10:00
+사진7
+###### Extended Graph, 09:30
+사진8
+###### Extended Graph, 09:00
+사진9
