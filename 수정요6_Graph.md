@@ -13,7 +13,6 @@ import pandas as pd
 <pre>
 <code>
 df = pd.read_excel('../Weight/IDEweight.xlsx')
-#df = pd.read_excel('../Weight/weight.xlsx')
 
 G = nx.Graph()
 
