@@ -59,7 +59,7 @@ plt.show()
 </pre>
 
 ### 시간별 그래프 생성 결과 예시
-issue에 그림들 올린 후, 링크들 가져오기
+캡쳐사진들..
 ###### Initial Graph, 13:00
 사진1
 ###### Extended Graph, 12:30
