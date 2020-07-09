@@ -84,3 +84,7 @@ output = pd.DataFrame(W)
 output.to_excel('weight.xlsx', index=False)
 </pre>
 </code>
+
+#### 결과값 예시
+
+ㅋ캡쳐사진
