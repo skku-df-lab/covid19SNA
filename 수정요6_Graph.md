@@ -9,7 +9,7 @@ import pandas as pd
 </code>
 </pre>
 
-#### 시간별 최단 경로 그래프를 만드는 작업
+#### 시간별 그래프를 만드는 작업
 <pre>
 <code>
 df = pd.read_excel('../Weight/IDEweight.xlsx')
