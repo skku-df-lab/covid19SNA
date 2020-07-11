@@ -87,4 +87,4 @@ output.to_excel('weight.xlsx', index=False)
 
 #### 결과값 예시
 
-ㅋ캡쳐사진
+![weight](https://user-images.githubusercontent.com/66988643/87216934-20656400-c37f-11ea-81fe-386019795e6a.PNG)
