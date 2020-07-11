@@ -1,4 +1,4 @@
-## Weight : WeightMatrix_input.py
+## Weight : WeightMatrix
 
 #### 필요한 모듈 추가
 <pre>
