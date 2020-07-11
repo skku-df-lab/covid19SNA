@@ -51,3 +51,7 @@ output = pd.DataFrame(df)
 output.to_excel('IDEweight.xlsx', index=False)
 </code>
 </pre>
+
+#### 결과값 예시
+
+![IDW](https://user-images.githubusercontent.com/66988643/87217147-560b4c80-c381-11ea-9e16-625bef6836e1.PNG)
