@@ -110,7 +110,7 @@ def shortest_path(s, t):
 
     return f'{" > ".join(path)}'
 
-df = pd.read_excel('../Weight/IDEweight.xlsx')
+df = pd.read_excel('../Weight/IDW.xlsx')
 
 degree = 100
 
