@@ -8,7 +8,7 @@ import pandas as pd
 </code>
 </pre>
 
-#### 추가 설명 넣어야함
+#### 중심성
 <pre>
 <code>
 """
