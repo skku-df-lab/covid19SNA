@@ -9,7 +9,7 @@ from scipy.spatial import distance
 </code>
 </pre>
 
-#### 모든 노드들에 대한 각각의 가중치를 구하는 작업
+#### Make up Weighted Matrix for All Nodes
 <pre>
 <code>
 filename = ['W0900', 'W0930', 'W1000', 'W1030', 'W1100', 'W1130', 'W1200', 'W1230', 'W1300']
@@ -38,7 +38,7 @@ print(TotalWeight)
 </code>
 </pre>
 
-#### 가중치를 행렬로 표현하는 작업 
+#### Make up Weighted Matrix for Contact Modeling
 <pre>
 <code>
 sheetName = 'total'
@@ -85,6 +85,6 @@ output.to_excel('weight.xlsx', index=False)
 </pre>
 </code>
 
-#### 결과값 예시
+#### Results
 
 ![weight](https://user-images.githubusercontent.com/66988643/87216934-20656400-c37f-11ea-81fe-386019795e6a.PNG)
