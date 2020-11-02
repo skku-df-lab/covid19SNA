@@ -5,8 +5,7 @@
 
 1. json2csv : convert .json file to .csv file
 
-2. K-Means Clustering    
--> 2. Hierarchical Clustering
+2. Hierarchical Clustering
 
 3. Weight : Weight Matrix
 
