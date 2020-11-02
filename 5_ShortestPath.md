@@ -1,4 +1,4 @@
-## Shortest Path : Dijistra algorithm
+## Shortest Path : Dijkstra algorithm
 
 #### Add Modules
 <pre>
@@ -57,7 +57,7 @@ class Graph:
 </code>
 </pre>
 
-#### Dijstra algorithm to find the shortest path
+#### Dijkstra algorithm to find the shortest path
 <pre>
 <code>
 def dijkstra(graph, s):
