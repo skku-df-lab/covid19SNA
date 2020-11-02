@@ -1,6 +1,6 @@
 ## Centrality
 
-#### 필요한 모듈 추가
+#### Add Modules
 <pre>
 <code>
 import networkx as nx
@@ -12,7 +12,7 @@ import pandas as pd
 <pre>
 <code>
 """
-- graph로부터 다음 세 가지 centrality와 pagerank를 계산하여 딕셔너리로 리턴해주는 함수
+- A function that calculates the following three centralities and pageranks from the graph and returns them as a dictionary
     - weighted degree centrality
     - closeness centrality
     - betweenness centrality
@@ -20,7 +20,7 @@ import pandas as pd
 """
 
 def return_centralities_as_dict(input_g):
-    # weighted degree centrality를 딕셔너리로 리턴
+    # return weighted degree centrality to dictionary
     def return_weighted_degree_centrality(input_g, normalized=False):
         w_d_centrality = {n:0.0 for n in input_g.nodes()}
         for u, v, d in input_g.edges(data=True):
@@ -49,7 +49,7 @@ def return_centralities_as_dict(input_g):
     }
 
 """
-main code, 나중에 사용할 때 아래 부분은 삭제하는 것이 좋음. 
+main code
 """
 G = nx.Graph()
 
