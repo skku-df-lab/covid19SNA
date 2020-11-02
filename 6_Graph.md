@@ -9,7 +9,7 @@ import pandas as pd
 </code>
 </pre>
 
-#### 시간별 그래프를 만드는 작업
+#### Create Graphs Per Hour
 <pre>
 <code>
 df = pd.read_excel('../Weight/IDEweight.xlsx')
