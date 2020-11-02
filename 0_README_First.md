@@ -17,4 +17,4 @@
 
 7. Centrality
 
-singleGoogleGPSdata.xlsx : You can download sample data
+  singleGoogleGPSdata.xlsx : You can download sample data
