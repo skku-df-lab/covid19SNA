@@ -1,8 +1,7 @@
 ## Heirarchial Clustering.py
 
 #### Add Modules
-<pre>
-<code>
+<pre><code>
 import numpy as np
 import pandas as pd
 import scipy.cluster.hierarchy as shc
@@ -18,8 +17,7 @@ from sklearn.metrics import silhouette_score
 </pre>
 
 #### Heirarchial Clustering
-<pre>
-<code>
+<pre><code>
 sheetName = '1300'
 df = pd.read_excel('100PP_GPS_Data.xlsx', sheet_name=sheetName)
 raw_data = df[['latitudeE7', 'longitudeE7']]
