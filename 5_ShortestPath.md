@@ -1,7 +1,6 @@
 ## Shortest Path : Dijistra algorithm
 
-#### 필요한 모듈 추가
-
+#### Add Modules
 <pre>
 <code>
 #dijkstra implementation from MIT 6006 course lesson #16
@@ -12,10 +11,9 @@ import pandas as pd
 </code>
 </pre>
 
-#### 우선순위 큐를 생성하는 작업
+#### utility: priority queue
 <pre>
 <code>
-# utility: priority queue
 class Pq:
     def __init__(self):
         self.queue = []
@@ -40,10 +38,9 @@ class Pq:
 </code>
 </pre>
 
-#### 그래프를 생성하는 작업
+#### utility: Graph
 <pre>
 <code>
-# utility: Graph
 class Graph:
     def __init__(self, vertices):
         self.V = vertices
@@ -60,7 +57,7 @@ class Graph:
 </code>
 </pre>
 
-#### 다익스트라 알고리즘으로 최단 경로를 구하는 작업
+#### Dijstra algorithm to find the shortest path
 <pre>
 <code>
 def dijkstra(graph, s):
@@ -133,7 +130,7 @@ print(g)
 </code>
 </pre>
 
-#### 구한 최단 경로를 출력하는 작업
+#### Print shortest path
 <pre>
 <code>
 result = []
@@ -148,8 +145,8 @@ output.to_excel('SPresult.xlsx', index=False)
 </code>
 </pre>
 
-### 결과값 예시
+### Results
 ![shortestPath_SPresult](https://user-images.githubusercontent.com/66988643/86545550-9a09e600-bf6a-11ea-8a87-ebcc0ae60eb9.PNG)
 
 
-###### 코드 인용 출처 https://velog.io/@leejh3224/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%BD%94%EB%93%9C-%EC%A0%95%EB%A6%AC-Dijkstra-in-python3-cajoi4a9c3
+###### From : https://velog.io/@leejh3224/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%BD%94%EB%93%9C-%EC%A0%95%EB%A6%AC-Dijkstra-in-python3-cajoi4a9c3
