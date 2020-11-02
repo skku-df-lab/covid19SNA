@@ -1,6 +1,6 @@
-## Weight : WeightMatrix
+## Weight : Weight Matrix
 
-#### 필요한 모듈 추가
+#### Add Modules
 <pre>
 <code>
 import pandas as pd
