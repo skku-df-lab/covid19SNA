@@ -55,9 +55,9 @@ for x in range(degree):
 input = df.iloc[1, 1]
 print(input)
 
-for i in range(1, timestep): # input 과 동일한 클러스터를 추출
+for i in range(1, timestep): # extract same cluster as input
     if i == 1:
-        for j in range(0, degree):  # input 외 데이터는 0으로 설정
+        for j in range(0, degree):  # set non-input data to 0
             if input == df.iloc[j, i]:
                 snapshot.append(df.iloc[j, i])
             else:
