@@ -8,7 +8,7 @@ import pandas as pd
 </code>
 </pre>
 
-#### 중심성
+#### Centrality
 <pre>
 <code>
 """
