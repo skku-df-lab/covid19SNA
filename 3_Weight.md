@@ -13,7 +13,7 @@ from scipy.spatial import distance
 <pre>
 <code>
 filename = ['W0900', 'W0930', 'W1000', 'W1030', 'W1100', 'W1130', 'W1200', 'W1230', 'W1300']
-sheetName = 'data'
+sheetName = 'data'   # timestep 2 is 'W0900', ... , and 10 is 'W1300'
 
 degree = 100
 timestep = 10
