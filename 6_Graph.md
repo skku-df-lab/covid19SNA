@@ -26,15 +26,6 @@ for i in range(0, degree):
                 G.add_edge(i+1, j+1, weight=w)
                 print("i: ", i, "j: ", j, "weight: ", df.iloc[i, j])
 
-"""
-G.add_edge('a', 'b', weight=0.6)
-G.add_edge('a', 'c', weight=0.2)
-G.add_edge('c', 'd', weight=0.1)
-G.add_edge('c', 'e', weight=0.7)
-G.add_edge('c', 'f', weight=0.9)
-G.add_edge('a', 'd', weight=0.3)
-"""
-
 elarge = [(u, v) for (u, v, d) in G.edges(data=True) if d['weight'] > 0.05]
 esmall = [(u, v) for (u, v, d) in G.edges(data=True) if d['weight'] <= 0.05]
 
